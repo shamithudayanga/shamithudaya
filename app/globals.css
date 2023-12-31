@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+
+/* .about {
+  content: "";
+  background-image: url("../assets/abo.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  opacity: 0.35;
+  bottom: 0;
+} */
+
+.project:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  
+  
+}
+
+.imgs .project:hover{
+  color: blue;
+}
+
+
